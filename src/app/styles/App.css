@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
